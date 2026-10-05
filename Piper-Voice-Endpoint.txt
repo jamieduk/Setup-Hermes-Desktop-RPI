@@ -13,7 +13,7 @@ PIPER_VOICE="${PIPER_VOICE:-models/en_GB-alba-medium.onnx}"
 
 
 
-# To setup piper run
+# To setup piper run (this only installs missing pip modules required for openai compatability not actual full piper or its voices)!
 
 ./piper-setup.sh
 
