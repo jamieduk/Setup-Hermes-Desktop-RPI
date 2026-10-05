@@ -15,6 +15,10 @@ PIPER_VOICE="${PIPER_VOICE:-models/en_GB-alba-medium.onnx}"
 
 # To setup piper run (this only installs missing pip modules required for openai compatability not actual full piper or its voices)!
 
+# Setup the piper server and get a voice
+./initial-piper-setup.sh
+
+# Get the pip configured!
 ./piper-setup.sh
 
 # To Use
@@ -26,8 +30,7 @@ PIPER_VOICE="${PIPER_VOICE:-models/en_GB-alba-medium.onnx}"
 
 # Then visit http://localhost:5000/
 
-# Test Command
-
+# Test Command for stand alone mode!
 curl -X POST http://127.0.0.1:5000/v1/audio/speech \
     -H "Content-Type: application/json" \
     -d '{"model":"piper","voice":"en_GB-alba-medium","input":"Hello Jay, this is your local Piper voice.","response_format":"wav"}' \
