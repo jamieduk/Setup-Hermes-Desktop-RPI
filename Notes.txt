@@ -1,10 +1,12 @@
+Setup Hermes on a RPI 5
 https://github.com/jamieduk/Setup-Hermes-Desktop-RPI
 
+Original Repo (for newer versions)
 
+https://github.com/sir1st/hermes-desktop/releases
 
 
 ./setup.sh
-
 
 
 ./start.sh
@@ -12,3 +14,20 @@ https://github.com/jamieduk/Setup-Hermes-Desktop-RPI
 
 
 For 500 Free Plugins https://youtu.be/RcN7hti2Lwo
+
+
+For local piper server endpoint for tts
+
+./piper-setup.sh
+
+./piper-start.sh
+
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.43.218:5000
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+opencode x header issue is known to the creator as I reported the issue
+https://github.com/sir1st/hermes-desktop/issues/9
+
