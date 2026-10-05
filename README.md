@@ -11,6 +11,8 @@ Tested on:
 
 This project installs **Hermes Desktop** without replacing or modifying your operating system.
 
+<img width="1278" height="882" alt="Screenshot from 2026-10-05 10-30-39" src="https://github.com/user-attachments/assets/151b2ee6-b7d1-49bd-8e27-115120430a83" />
+
 ## Features
 
 * Raspberry Pi 5 ARM64 support
