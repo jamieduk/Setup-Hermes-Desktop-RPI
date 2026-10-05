@@ -1,0 +1,32 @@
+# Piper (local text-to-speech)
+PIPER_PATH=/home/jay/Documents/Apps/ai-voice-chat/piper-venv/bin/piper
+PIPER_VOICE=/home/jay/Documents/Apps/ai-voice-chat/voices/en_GB-alba-medium.onnx
+
+
+
+PIPER_BIN="${PIPER_PATH:-venv/bin/piper}"
+PIPER_VOICE="${PIPER_VOICE:-models/en_GB-alba-medium.onnx}"
+
+
+
+# To setup piper run
+
+./piper-setup.sh
+
+# To Use
+./piper-server.sh 
+
+
+# Stand alone mode
+./piper-start.sh
+
+
+
+# Test Command
+
+curl -X POST http://127.0.0.1:5000/v1/audio/speech \
+    -H "Content-Type: application/json" \
+    -d '{"model":"piper","voice":"en_GB-alba-medium","input":"Hello Jay, this is your local Piper voice.","response_format":"wav"}' \
+    -o /tmp/piper-test.wav && paplay /tmp/piper-test.wav
+    
+
