@@ -1,3 +1,7 @@
+
+
+Heres my example of how I have it! (used opencode to set it up and have no actual setup script for this yet!
+
 # Piper (local text-to-speech)
 PIPER_PATH=/home/jay/Documents/Apps/ai-voice-chat/piper-venv/bin/piper
 PIPER_VOICE=/home/jay/Documents/Apps/ai-voice-chat/voices/en_GB-alba-medium.onnx
@@ -29,4 +33,11 @@ curl -X POST http://127.0.0.1:5000/v1/audio/speech \
     -d '{"model":"piper","voice":"en_GB-alba-medium","input":"Hello Jay, this is your local Piper voice.","response_format":"wav"}' \
     -o /tmp/piper-test.wav && paplay /tmp/piper-test.wav
     
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+You will need to setup piper in a venv and then you can use the piper scripts to make your own endpoint!
+
+
 
