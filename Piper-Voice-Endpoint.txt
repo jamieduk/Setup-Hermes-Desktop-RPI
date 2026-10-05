@@ -24,7 +24,7 @@ PIPER_VOICE="${PIPER_VOICE:-models/en_GB-alba-medium.onnx}"
 # Stand alone mode
 ./piper-start.sh
 
-
+# Then visit http://localhost:5000/
 
 # Test Command
 
