@@ -1,0 +1,14 @@
+https://github.com/jamieduk/Setup-Hermes-Desktop-RPI
+
+
+
+
+./setup.sh
+
+
+
+./start.sh
+
+
+
+For 500 Free Plugins https://youtu.be/RcN7hti2Lwo
